@@ -5,18 +5,16 @@ using UnityEngine;
 public class BackgroundScroller : MonoBehaviour
 {
     [SerializeField] private float backgroundScrollSpeed = 0.2f;
-    private Vector2 offset;
+    private Vector2 offSet;
     private Material blueSpace;
     void Start()
     {
         blueSpace = gameObject.GetComponent<Renderer>().material;
-        offset = new Vector2(0, backgroundScrollSpeed);
+        offSet = new Vector2(0, backgroundScrollSpeed);
     }
     
     void Update()
     {
-        blueSpace.mainTextureOffset += offset * Time.deltaTime;
-        backgroundScrollSpeed += Time.deltaTime*0.01f;
-        offset = new Vector2(0, backgroundScrollSpeed);
+        blueSpace.mainTextureOffset += offSet * Time.deltaTime;
     }
 }
