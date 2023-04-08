@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Meteor
+  - Laser
+  - BackGround
+  - Big Meteor
+  - MultiLaser
+  - SpreadLaser
+  - Shield
   layers:
   - Default
   - TransparentFX
@@ -11,11 +18,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Player Laser
+  - Enemy Laser
+  - post
   - 
   - 
   - 
@@ -38,6 +45,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Projectiles
+    uniqueID: 257290227
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
