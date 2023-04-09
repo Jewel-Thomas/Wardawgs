@@ -20,8 +20,8 @@ The aim of the player is to shoot these bullets at the meteors and destroy the m
 avoiding being hit by the same meteors. Once they are hit the player loses a chunk of their life 
 and after a certain number of hits, the player runs out of life and therefore the game ends.
 There are two kinds of meteors: 
-1. Small meteors that can be destroyed with a single or two shots.
-2. Huge Meteors which can be destroyed with 5 shots
+1. Small meteors that can be destroyed with a single shot.
+2. Huge Meteors which can be destroyed with 3 shots
 The player will also get access to powerups which will aid the player in their quest. 
 The Story of the Game
 The game is set in a futuristic, near apocalyptic earth where the player is the last of the elite 
