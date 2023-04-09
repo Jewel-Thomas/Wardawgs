@@ -5,6 +5,7 @@ Team Members
 2. Adithya N Biya
 3. Dyutin R
 4. Guneet Singh
+
 Game Overview
 “The Last Starfighter (stylized: TLS) is a 2D retro based endless spaceship shooter game. In this 
 game, the player will have control over an 8 bit spaceship which can be maneuvered along the 
